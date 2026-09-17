@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en"><head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#0f766e"><meta name="description" content="Private, offline clinical requirements tracker">
+  <link rel="manifest" href="manifest.webmanifest"><link rel="stylesheet" href="styles.css"><link rel="stylesheet" href="extras.css"><title>Clinic Ledger</title>
+</head><body>
+  <aside class="sidebar"><div class="brand">✚ <span>Clinic Ledger</span></div><nav id="desktopNav"></nav><div class="side-bottom"><button id="themeBtn" class="plain">◐ Theme</button><small id="connection" class="online">● Online</small></div></aside>
+  <main><header><div><p class="eyebrow" id="yearLabel">ACADEMIC YEAR</p><h1 id="pageTitle">Dashboard</h1></div><div class="header-actions"><button id="globalSearch" class="outline">⌕ Search</button><button id="addCaseBtn" class="primary">＋ Add case</button></div></header><section id="app"></section></main>
+  <nav class="bottom-nav" id="mobileNav"></nav>
+  <dialog id="modal"><form method="dialog" id="modalForm"><button class="close" value="cancel" aria-label="Close">×</button><div id="modalContent"></div></form></dialog>
+  <input id="filePicker" type="file" multiple hidden><input id="cameraPicker" type="file" accept="image/*" capture="environment" hidden>
+  <div id="toast" role="status"></div><script type="module" src="app.js?v=4"></script>
+</body></html>

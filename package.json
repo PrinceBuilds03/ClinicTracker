@@ -1,0 +1,6 @@
+{
+  "name": "clinic-ledger",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": { "start": "node serve.js", "test": "node --check app.js && node --check sw.js" }
+}

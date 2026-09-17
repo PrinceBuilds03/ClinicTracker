@@ -1,0 +1,6 @@
+.discipline-picker{border:1px solid var(--line);border-radius:8px;padding:10px;display:grid;gap:7px}
+.discipline-picker legend{font-weight:650;padding:0 4px}
+.discipline-picker label{display:block;font-weight:500}
+.discipline-picker input{accent-color:var(--brand)}
+.danger{background:#ffe5e5;color:#a32323}
+body.dark .danger{background:#582b2b;color:#ffdada}
